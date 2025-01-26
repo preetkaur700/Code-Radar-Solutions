@@ -3,7 +3,7 @@ int main()
 {
     float a;
     
-    scanf("%.4df",&a);
-    printf("You entered: ");
+    scanf("%df",&a);
+    printf("You entered: %.4df",a);
     return 0;
 }
