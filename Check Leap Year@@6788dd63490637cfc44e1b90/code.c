@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    it yeaar;
+    int year;
     scanf("%d",&year);
     if(year!%100==0){
         if(year%4==00)
