@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int Year
+    int Year;
     scanf("%d",Year);
-    if(Yearear%400==0)
+    if(Year%400==0)
         if(Year%100==0){
             printf("Leap Year");
         }
