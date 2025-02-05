@@ -4,9 +4,9 @@ int main()
     char character;
     scanf("%c",&character);
     if(character >= 'A' && character <= 'Z'){
-        printf("uppercase");
+        printf("Uppercase");
     }else if(character >= 'a' && character <= 'z'){
-        printf("lowercase");
+        printf("Lowercase");
     }else{
         printf("Not an alphabet");
     }
