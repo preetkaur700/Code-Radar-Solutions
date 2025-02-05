@@ -2,7 +2,7 @@
 int main()
 {
     int  character;
-    scanf("%d",character);
+    scanf("%d",&character);
     if(character>=A && charcter <=Z){
         printf("uppercase");
     }else if(Character >= a && character <=z){
