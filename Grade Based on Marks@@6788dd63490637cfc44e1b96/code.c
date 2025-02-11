@@ -9,7 +9,7 @@ int main()
         printf("B");
     }else if(C>=70 || C<80){
         printf("C");
-    }else if(D>=60 && D<70){
+    }else if(D>=60 || D<70){
         printf("D");
     }else if(F<60){
         printf("F");
