@@ -8,6 +8,6 @@ int main()
     }else if(pr>=a && pr<=z){
         printf("lowercase");
     }else{
-        (printf("Not an alphabet");)
+        printf("Not an alphabet");
     }
 }
