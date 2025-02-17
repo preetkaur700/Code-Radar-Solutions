@@ -6,7 +6,7 @@ int main()
     int vowel = a,e,i,o,u;
     if(vowel == pr){
         printf("Vowel");
-    }else if(!(vowel = pr)){
+    }else if(vowel != pr){
         printf("Consonant");
     }
 
