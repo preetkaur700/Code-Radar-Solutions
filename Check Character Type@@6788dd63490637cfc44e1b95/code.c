@@ -10,7 +10,7 @@ int main()
     }else if(pr >= '0' && pr <= '9'){
         printf("Digit");
     }else{
-        printf("special character");
+        printf("special Character");
     }
 
 }   
