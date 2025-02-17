@@ -6,7 +6,7 @@ int main()
     if(pr>=A && pr<=Z){
         printf("Uppercase");
     }else if(pr>=a && pr<=z){
-        printf("lowercase");
+        printf("Lowercase");
     }else
         printf("Not an alphabet");
     
