@@ -12,6 +12,6 @@ int main()
                 isPrime=0;
             }
         }
-        Return 0;
+        return isPrime;
     }
 }
