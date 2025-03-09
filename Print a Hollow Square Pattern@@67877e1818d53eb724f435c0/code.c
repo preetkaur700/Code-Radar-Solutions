@@ -8,9 +8,9 @@ int main()
         for(j=1;j<=N;j++)
         {
             if(i==1 || j==N || i==N || j==1){
-                printf(" ");
-            }else{
                 printf("*");
+            }else{
+                printf(" ");
             }
         }
         printf("\n");
