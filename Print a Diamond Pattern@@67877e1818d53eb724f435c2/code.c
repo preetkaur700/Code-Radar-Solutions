@@ -8,7 +8,7 @@ int main()
         for(s = i; s < N; s++)
         printf(" ");
     }
-    for(j = 1; j = 2 * i - 1; j++)
+    for(j = 1; j <= 2 * i - 1; j++)
     {
         printf("*");
     }
@@ -16,7 +16,7 @@ int main()
     
     for(i = N-1; i >= 1; i--)
     {
-        for(s = N; s < i; s--)
+        for(s = i; s < N; s++)
         {
             printf(" ");
         }
