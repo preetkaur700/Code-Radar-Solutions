@@ -5,11 +5,11 @@ int main()
     scanf("%d",&N);
     for(int i=1;i<=N;i++)
     {
-        for(s=N;s<N;s--)
+        for(int s=N;s<N;s--)
         {
             printf(" ");
         }
-        for(j=1;j<=i;j++)
+        for(int j=1;j<=i;j++)
         {
             printf("%d ",j);
         }
