@@ -5,7 +5,7 @@ int main()
     scanf("%d",&N);
     for(int i=1;i<=N;i++)
     {
-        int mul = n*i;
+        int mul = N*i;
         printf("%d %d = %d", N,i,mul);
         printf("\n");
 
