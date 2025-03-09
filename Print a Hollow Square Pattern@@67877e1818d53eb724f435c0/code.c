@@ -10,7 +10,7 @@ int main()
             if(i==1 || j==N || i==N || j==1){
                 printf(" ");
             }else{
-                printf("* ");
+                printf("*");
             }
         }
         printf("\n");
