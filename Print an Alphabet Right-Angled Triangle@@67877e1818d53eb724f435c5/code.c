@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    char N,i,j;
-    scanf("%c",&N);
+    int N,i,j;
+    scanf("%d",&N);
     for(i='A';i<=N;i++)
     {
         for(j='A';j<=i;j++)
