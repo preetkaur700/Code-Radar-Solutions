@@ -5,7 +5,7 @@ int main()
     scanf("%d",&N);
     for(int i=1;i<=N;i++)
     {
-        for(int s=i;s<N;s++)
+        for(int s=1;s<N;s++)
         {
             printf(" ");
         }
