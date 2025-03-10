@@ -19,5 +19,5 @@ for(int i=0;i<n;i++){
     printf("Name: %s, ",stud[i].name);
     printf("Marks: %.2f\n",stud[i].attendence);
 }
-return 0;
+return 0;
 }
