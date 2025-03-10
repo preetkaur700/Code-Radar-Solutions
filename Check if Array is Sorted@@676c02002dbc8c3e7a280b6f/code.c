@@ -7,15 +7,18 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    int max=a[0];
+    int issorted=1;
     for(i=0;i<N;i++)
     {
-        if(a[i]>max){
-            printf("Not Sorted");
+        if(a[i]<a[i-1])
+        {
+            issorted=0;
+            break;
         }
     }
-else{
-    printf("Sorted");
-}    
-return 0;
+    if(issorted){
+        printf("sorted");
+    }else{
+        printf("not sorted");
+    }
 }
