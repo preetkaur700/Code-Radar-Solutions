@@ -12,7 +12,7 @@ int main()
     {
         if(a[i]<a[i-1])
         {
-            sorted=0;
+            issorted=0;
             break;
         }
     }
