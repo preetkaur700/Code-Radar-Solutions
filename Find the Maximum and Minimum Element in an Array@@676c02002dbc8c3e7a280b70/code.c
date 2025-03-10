@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int N,a[100],i;
+    int N,a[100];
     scanf("%d",&N);
     for(i=0;i<N;i++)
     {
-       scanf("%d",&a[i]);
+       scanf("%d",a[i]);
     }
     int min=a[0];
     for(i=1;i>N;i++)
@@ -13,12 +13,4 @@ int main()
         min=a[i];
     }
     printf("%d",min);
-    {
-    int max=a[0];
-    for(i=0;i<N;i++)
-    {
-        max=a[i];
-    }
-    printf("%d ",a[i]);
-    }
 }
