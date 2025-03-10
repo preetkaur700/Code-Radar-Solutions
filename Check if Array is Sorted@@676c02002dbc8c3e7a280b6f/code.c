@@ -13,10 +13,9 @@ int main()
         if(a[i]>max){
             printf("Not Sorted");
         }
-        else{
-            printf("Sorted");
-        }
-        return 0;
     }
-
+else{
+    printf("Sorted");
+}    
+return 0;
 }
