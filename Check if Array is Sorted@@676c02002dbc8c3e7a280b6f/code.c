@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int N,i,a[];
+    int N,i,a[N];
     scanf("%d",&N);
     for(i=0;i<N;i++)
     {
