@@ -5,12 +5,12 @@ int main()
     scanf("%d",&N);
     for(i=0;i<N;i++)
     {
-        scanf("%d",&a[i]);
+        scanf("%d",&N[i]);
     }
     int max=a[0];
     for(i=0;i<N;i++)
     {
-        if(a[i]>max){
+        if(N[i]>max){
             printf("Sorted");
         }
         else{
