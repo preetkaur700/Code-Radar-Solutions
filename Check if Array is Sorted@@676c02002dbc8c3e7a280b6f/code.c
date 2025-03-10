@@ -10,11 +10,11 @@ int main()
     int max=a[0];
     for(i=0;i<N;i++)
     {
-        if(a[i]<max){
-            printf("Sorted");
+        if(a[i]>max){
+            printf("Not Sorted");
         }
         else{
-            printf("NOt Sorted");
+            printf("Sorted");
         }
         return 0;
     }
