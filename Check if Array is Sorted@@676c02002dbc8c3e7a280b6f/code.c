@@ -5,7 +5,7 @@ int main()
     scanf("%d",&N);
     for(i=0;i<N;i++)
     {
-        printf("%d",&a[i]);
+        scanf("%d",&a[i]);
     }
     int issorted=1;
     for(i=1;i<N;i++)
