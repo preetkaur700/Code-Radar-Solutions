@@ -13,4 +13,9 @@ int main()
         min=a[i];
     }
     printf("%d",min);
+       for(i=1;i>N;i++)
+    {
+        min=a[i];
+    }
+    printf("%d",min);
 }
