@@ -10,7 +10,7 @@ int main()
     int issorted=1;
     for(i=0;i<N;i++)
     {
-        if(a[i]<a[i-1])
+        if(a[i]< a[i-1])
         {
             issorted=0;
             break;
