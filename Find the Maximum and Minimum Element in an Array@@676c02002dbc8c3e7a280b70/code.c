@@ -13,4 +13,10 @@ int main()
         min=a[i];
     }
     printf("%d",min);
+    int max=a[0];
+    for(i=0;i<N;i++)
+    {
+        max=a[i];
+    }
+    printf("%d",a[i]);
 }
