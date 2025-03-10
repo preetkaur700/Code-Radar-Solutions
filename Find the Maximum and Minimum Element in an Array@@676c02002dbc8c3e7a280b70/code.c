@@ -8,12 +8,14 @@ int main()
        scanf("%d",&a[i]);
     }
     int min=a[0];
-    for(i=1;i>N;i++)
+    for(i=1;i<N;i++)
     {
+        if(a[i]<min)
         min=a[i];
     }
     printf("%d ",min);
-       for(i=1;i<N;i++)
+    int max=a[0];
+       for(i=0;i<N;i++)
     {
         min=a[i];
     }
