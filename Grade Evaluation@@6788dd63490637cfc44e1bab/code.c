@@ -9,7 +9,7 @@ int main()
     }else if(N=='B'){
         printf("Good");
     }else if(N=='C'){
-        prinf("Average");
+        printf("Average");
     }else if(N=='D'){
         printf("Below Average");
     }else if(N=='E'){
