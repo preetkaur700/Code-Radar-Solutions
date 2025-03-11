@@ -7,7 +7,7 @@ int main()
     if(n1>1 && n2>1){
         printf("Same Sign");
     }else if(n1<1 && n2<1){
-        printf("same Sign");
+        printf("Same Sign");
     }else{
         printf("Different Sign");
     }
