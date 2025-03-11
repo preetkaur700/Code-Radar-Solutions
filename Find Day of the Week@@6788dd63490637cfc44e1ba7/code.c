@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int n;
+    int n,day;
     scanf("%d",&n);
     switch (day):
     case 1:
