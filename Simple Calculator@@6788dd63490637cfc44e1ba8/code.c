@@ -21,12 +21,12 @@ int main() {
         case '/':
             // Handling division by zero case
             if (num2 == 0)
-                printf("Error");
+                printf("error");
             else
                 printf("%d", num1 / num2);
             break;
         default:
-            printf("Error"); // Invalid operator case
+            printf("error"); // Invalid operator case
     }
 
     return 0;
