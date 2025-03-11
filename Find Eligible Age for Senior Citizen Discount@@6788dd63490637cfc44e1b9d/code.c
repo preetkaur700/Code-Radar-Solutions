@@ -4,7 +4,7 @@ int main()
     int personsage;
     scanf("%d",&personsage);
     if(personsage>=60){
-        printf("Eligible";)
+        printf("Eligible");
     }else{
         printf("Not Eligible");
     }
