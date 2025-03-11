@@ -4,7 +4,7 @@ int main()
 {
     char N;
     scanf("%c",&N);
-    if(n=='A'){
+    if(N=='A'){
         printf("Excellent");
     }else if(N=='B'){
         printf("Good");
