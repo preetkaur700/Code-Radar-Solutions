@@ -19,7 +19,7 @@ int main()
     scanf("%s",str);
     
     reverseString(str);
-    printf("Reversed string: %s\n",str);
+    printf(" %s\n",str);
     return 0;
     
 }
