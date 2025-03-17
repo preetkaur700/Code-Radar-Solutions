@@ -12,6 +12,7 @@ void reverseString(char str[]) {
         str[i] = str[j];
         str[j] = temp;
     }
+}
 int main()
 {
     char str[404];
@@ -23,4 +24,4 @@ int main()
     return 0;
     
 }
-}
+
