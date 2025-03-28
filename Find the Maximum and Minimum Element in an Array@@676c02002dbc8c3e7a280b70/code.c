@@ -1,15 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int n, even = 0, odd = 0, num;
+    int n, min, max;
     scanf("%d", &n);
+    int arr[n];
     
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &num);
-        if (num % 2 == 0) even++;
-        else odd++;
+    scanf("%d", &arr[0]);
+    min = max = arr[0];
+    
+    for (int i = 1; i < n; i++) {
+        scanf("%d", &arr[i]);
+        if (arr[i] < min) min = arr[i];
+        if (arr[i] > max) max = arr[i];
     }
     
-    printf("%d %d\n", even, odd);
+    printf("%d %d\n", min, max);
     return 0;
 }
