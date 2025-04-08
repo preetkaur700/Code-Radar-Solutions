@@ -22,7 +22,7 @@ int main()
     else
     {
         a[1]=first;
-        a[0]=econd;
+        a[0]=second;
     }
 
     for(i=0;i<N;i++)
