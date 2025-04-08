@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <limits.h> // For INT_MAX
+#include <limits.h> 
 
 int main() {
     int n;
@@ -27,9 +27,9 @@ int main() {
     }
 
     if (second == INT_MAX) {
-        printf("-1\n");  // No second smallest
+        printf("-1\n");  
     } else {
-        printf("%d\n", second);  // Second smallest found
+        printf("%d\n", second);  
     }
 
     return 0;
