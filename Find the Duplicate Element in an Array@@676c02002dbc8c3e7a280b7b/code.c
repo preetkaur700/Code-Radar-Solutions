@@ -3,20 +3,18 @@
 
 int main() {
     int n;
-    scanf("%d", &n);  // Size of array
+    scanf("%d", &n);  
 
     int arr[n];
     for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);  // Input elements
+        scanf("%d", &arr[i]);  
     }
 
     int foundDuplicate = 0;
 
-    // Check each element against others
     for (int i = 0; i < n; i++) {
         int count = 0;
 
-        // Skip if this is already counted before
         int alreadyCounted = 0;
         for (int k = 0; k < i; k++) {
             if (arr[k] == arr[i]) {
@@ -40,7 +38,7 @@ int main() {
     }
 
     if (!foundDuplicate) {
-        printf("-1\n");  // No duplicates
+        printf("-1\n");  
     }
 
     return 0;
