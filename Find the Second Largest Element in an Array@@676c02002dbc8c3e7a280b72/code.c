@@ -6,7 +6,7 @@ int main()
 
     int a[N];
 
-    for(i=0;i<N;i++)
+    for(i=0;i<=N;i++)
     {
         scanf("%d",&a[i]);
     }
@@ -25,7 +25,7 @@ int main()
         a[0]=second;
     }
 
-    for(i=1;i<N;i++)
+    for(i=1;i<=N;i++)
     {
         if(a[i]>first)
         {
