@@ -3,11 +3,12 @@
 
 int main() {
     int n;
-    scanf("%d", &n);  // Number of elements
+    scanf("%d", &n);  
 
     int arr[n];
     for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);  
+        scanf("%d", &arr[i]); 
+    }
 
     int maxFreq = 0;
     int elementWithMaxFreq;
@@ -27,7 +28,7 @@ int main() {
         }
     }
 
-    printf("%d\n", elementWithMaxFreq);  // Most frequent element
+    printf("%d\n", elementWithMaxFreq);  
 
     return 0;
 }
