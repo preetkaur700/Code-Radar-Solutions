@@ -12,7 +12,6 @@ int main() {
 
     int maxRight = -1;
 
-    // Traverse from right to left
     for(int i = n - 1; i >= 0; i--) {
         int temp = arr[i];
         arr[i] = maxRight;
@@ -21,7 +20,6 @@ int main() {
         }
     }
 
-    // Print the modified array
     for(int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
