@@ -25,7 +25,7 @@ int main()
         a[0]=second;
     }
 
-    for(i=0;i<N;i++)
+    for(i=1;i<N;i++)
     {
         if(a[i]>first)
         {
@@ -35,7 +35,7 @@ int main()
         {
             second=a[i];
         }
-        printf("%d",i);
+        printf("%d ",i);
     }
 
 }
