@@ -29,13 +29,13 @@ int main()
     {
         if(a[i]>first)
         {
-            first=a[i]
+            first=a[i];
         }
         else if (a[i]>second && a[i] != first)
         {
-            second=a[i]
+            second=a[i];
         }
-        printf("%d",i)
+        printf("%d",i);
     }
 
 }
