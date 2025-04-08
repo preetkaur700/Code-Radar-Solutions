@@ -23,9 +23,9 @@ int main() {
     }
 
     if (increasing || decreasing) {
-        printf("Monotonic\n");
+        printf("Yes\n");
     } else {
-        printf("Not Monotonic\n");
+        printf("No\n");
     }
 
     return 0;
