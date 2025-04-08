@@ -1,7 +1,9 @@
-// Your code here...
 #include <stdio.h>
+#include <stdlib.h> // For abs()
 
+// Function to compute sum of digits (with abs for negatives)
 int sumOfDigits(int num) {
+    num = abs(num); // Make the number positive
     int sum = 0;
     while (num != 0) {
         sum += num % 10;
