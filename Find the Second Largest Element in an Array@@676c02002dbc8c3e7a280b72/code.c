@@ -4,11 +4,11 @@ int main()
     int N,i;
     scanf("%d",&N);
 
-    int arr[N];
+    int a[N];
 
     for(i=0;i<N;i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",&a[i]);
     }
 
     int first,second;
