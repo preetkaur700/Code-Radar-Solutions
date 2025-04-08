@@ -1,41 +1,36 @@
-#include<stdio.h>
-int main()
-{
-    int N,i;
-    scanf("%d",&N);
+#include <stdio.h>
+#include <limits.h>
+
+int main() {
+    int N, i;
+    scanf("%d", &N);
+
+    if (N < 2) {
+        printf("-1\n");
+        return 0;
+    }
 
     int a[N];
-
-    for(i=0;i<=N;i++)
-    {
-        scanf("%d",&a[i]);
+    for (i = 0; i < N; i++) {
+        scanf("%d", &a[i]);
     }
 
-    int first,second;
+    int first = INT_MIN, second = INT_MIN;
 
-    if(a[0]>a[1])
-    {
-         first=a[0];
-         second=a[1];
-
-    }
-    else
-    {
-        first=a[1];
-        second=a[0];
-    }
-
-    for(i=1;i<=N;i++)
-    {
-        if(a[i]>first)
-        {
-            first=a[i];
+    for (i = 0; i < N; i++) {
+        if (a[i] > first) {
+            second = first;
+            first = a[i];
+        } else if (a[i] > second && a[i] != first) {
+            second = a[i];
         }
-        else if (a[i]>second && a[i] != first)
-        {
-            second=a[i];
-        }
-        printf("%d ",i);
     }
 
+    if (second == INT_MIN) {
+        printf("-1\n");
+    } else {
+        printf("%d\n", second);
+    }
+
+    return 0;
 }
