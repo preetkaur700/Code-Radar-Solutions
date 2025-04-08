@@ -15,7 +15,7 @@ int main()
 
     if(a[0]>a[1])
     {
-         first;= a[0];
+         first=a[0];
          second=a[1];
 
     }
