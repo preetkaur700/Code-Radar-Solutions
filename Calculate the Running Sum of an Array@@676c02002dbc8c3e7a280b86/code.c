@@ -11,12 +11,11 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Running sum logic
+    
     for (int i = 1; i < n; i++) {
         arr[i] = arr[i] + arr[i - 1];
     }
 
-    // Print the result
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
