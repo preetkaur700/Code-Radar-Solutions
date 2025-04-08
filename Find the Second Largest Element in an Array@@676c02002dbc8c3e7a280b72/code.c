@@ -1,21 +1,41 @@
-// Your code here...
-#include <stdio.h>
+#include<stdio.h>
+int main()
+{
+    int N;
+    scanf("%d",&N);
 
-int main() {
-    int n, i, max = -1, secondMax = -1;
-    scanf("%d", &n);
-    int arr[n];
+    int arr[N];
 
-    for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-        if (arr[i] > max) {
-            secondMax = max;
-            max = arr[i];
-        } else if (arr[i] > secondMax && arr[i] < max) {
-            secondMax = arr[i];
-        }
+    for(i=0;i<N;i++)
+    {
+        scanf("%d",&arr[i]);
     }
 
-    printf("%d\n", secondMax);
-    return 0;
+    int first,second;
+
+    if(a[0]>a[1])
+    {
+        a[0] = first;
+        a[1] = second;
+
+    }
+    else
+    {
+        a[1]=first;
+        a[0]=econd;
+    }
+
+    for(i=0;i<N;i++)
+    {
+        if(a[i]>first)
+        {
+            first=a[i]
+        }
+        else if (a[i]>second && a[i] != first)
+        {
+            second=a[i]
+        }
+        printf("%d",i)
+    }
+
 }
