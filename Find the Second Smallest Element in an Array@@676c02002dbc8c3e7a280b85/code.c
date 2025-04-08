@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 #include <limits.h> // For INT_MAX
 
@@ -7,7 +6,7 @@ int main() {
     scanf("%d", &n);
 
     if (n < 2) {
-        printf("Array must have at least 2 elements\n");
+        printf("-1\n");
         return 0;
     }
 
@@ -28,9 +27,9 @@ int main() {
     }
 
     if (second == INT_MAX) {
-        printf("No second smallest element (all elements might be equal)\n");
+        printf("-1\n");  // No second smallest
     } else {
-        printf("%d\n", second);
+        printf("%d\n", second);  // Second smallest found
     }
 
     return 0;
