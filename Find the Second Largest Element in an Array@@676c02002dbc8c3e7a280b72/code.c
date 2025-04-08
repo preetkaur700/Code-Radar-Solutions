@@ -15,14 +15,14 @@ int main()
 
     if(a[0]>a[1])
     {
-        a[0] = first;
-        a[1] = second;
+         first;= a[0];
+         second=a[1];
 
     }
     else
     {
-        a[1]=first;
-        a[0]=second;
+        first=a[1];
+        second=a[0];
     }
 
     for(i=1;i<=N;i++)
